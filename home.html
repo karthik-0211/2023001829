@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY RESUME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(0, 204, 255);
+        }
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .download-btn {
+            background: rgb(0, 238, 255);
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 15px;
+        }
+        .resume-container {
+            text-align: center;
+            padding: 20px;
+        }
+        .resume-heading {
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .resume-section {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 40px;
+            background: #222;
+            border-radius: 10px;
+            margin: 20px;
+            position: relative;
+        }
+        .resume-content {
+            text-align: left;
+            max-width: 600px;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-left: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin: 40px;
+        }
+        .end-text {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MY RESUME</div>
+        <nav>
+            <a href="index.html">Logout</a>
+            <a href="exit.html">Exit</a>
+            <a href="resume.pdf" class="download-btn" download>Download Resume</a>
+        </nav>
+    </header>
+
+    <div class="resume-container">
+        <div class="resume-heading">Resume</div>
+    </div>
+
+    <div class="resume-section">
+        <div class="resume-content">
+            <p><strong>Guda Karthik Reddy</strong><br>
+            Thirumala Enclave, Sangareddy<br>
+            Email: <a href="mailto:kguda2@gitam.in">kguda2@gitam.in</a><br>
+            Phone: 8977975749</p>
+            
+            <p><strong>Education:</strong><br>
+            <strong>Masters of Science in Computer Science</strong><br>
+            Harvard University, Cambridge, Massachusetts, Expected May 2029</p>
+
+            <p><strong>Technical Skills:</strong><br>
+            - Programming Languages: Python, Java, C++<br>
+            - Web Development: HTML, CSS, JavaScript, React.js<br>
+            - Database Management: SQL, MongoDB<br>
+            - Version Control: Git, GitHub<br>
+            - Software Development Lifecycle (SDLC)<br>
+            - Problem-solving & Analytical skills<br>
+            - Strong Communication & Collaboration Skills</p>
+
+            <p><strong>Work Experience:</strong><br>
+            <strong>Software Engineer Intern</strong><br>
+            TCS, Mumbai, India (August 2029)<br>
+            - Developed web-based applications using React.js and Node.js.<br>
+            - Conducted code reviews and resolved software defects.<br>
+            - Improved application stability and performance.</p>
+
+            <p><strong>IT Support Technician</strong><br>
+            HCL Technologies, Hyderabad, India (May 2032)<br>
+            - Provided IT support for hardware, software, and networking issues.<br>
+            - Managed and maintained company IT assets.<br>
+            - Implemented security protocols to protect sensitive data.</p>
+
+            <p><strong>Projects:</strong><br>
+            <strong>1. Data Visualization Dashboard</strong><br>
+            - Built a dashboard using Python and Matplotlib for sales data analysis.<br>
+            - Created interactive charts and automated data processing.</p>
+
+            <p><strong>2. Online Bookstore</strong><br>
+            - Developed a Django-based e-commerce site for books.<br>
+            - Implemented secure user authentication and payment gateway.</p>
+
+            <p><strong>Certifications:</strong><br>
+            - AWS Certified Solutions Architect - Associate<br>
+            - Microsoft Certified: Azure Fundamentals</p>
+
+            <p><strong>Declaration:</strong><br>
+            I hereby declare that the information provided above is true to the best of my knowledge.</p>
+
+            <p><strong>GUDA KARTHIK REDDY</strong></p>
+        </div>
+        <img src="mypic.jpg" alt="Passport Photo" class="photo">
+    </div>
+
+    <div class="cta">
+    <a href="resume.pdf" class="download-btn" download>Download Resume</a>
+    </div>
+
+    <div class="end-text">
+        END OF PAGE
+    </div>
+</body>
+</html>
